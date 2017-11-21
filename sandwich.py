@@ -2,7 +2,8 @@
 sandwich.py
 A fun little script that lets you build out a sandwich/burger.
 Hopefully, this pans out.
-(c) Nico Lasta, 2017
+
+Copyright (c) 2017 Nico Lasta. All rights reserved.
 """
 
 def main():
