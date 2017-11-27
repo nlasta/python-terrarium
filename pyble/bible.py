@@ -20,9 +20,12 @@ def bible():
 		"John 1:4": "In him was life, and the life was the light of men.",
 		"John 1:5": "The light shines in the darkness, and the darkness has not overcome it."
 	}
-
+	
 	"""
-	reference
+	reference = {
+		"John": "{ "1": ["In the beginning was the Word, and the Word was with God, and the Word was God.","He was in the beginning with God.", "All things were made through him, and without him was not any thing made that was made."]  }",
+		"John": "{ "2": ["Verse 1", "Verse 2", "Verse 3"] }"
+	}
 	"""
 
 	passage = " ".join(verse for book, verse in reference.items()) # str.join() = separator.join(str elements)
